@@ -63,7 +63,7 @@ h2 {
   cursor: auto;
 }
 #overlay button {
-  border: 0;
+  border: 1px solid white;
   padding: .5em 1em;
   background: #000;
   color: #FAFAFA;
