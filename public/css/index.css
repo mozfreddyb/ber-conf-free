@@ -32,7 +32,6 @@
 body {
   font-family: "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
-  background-color: #2F3A47;
 }
 h2 {
   color: #FAFAFA;
@@ -152,4 +151,12 @@ h2 {
 
 .room .fb > div:empty {
   height: 0.5em;
+}
+
+html {
+    background: url(/css/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
