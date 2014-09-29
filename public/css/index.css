@@ -76,6 +76,7 @@ h2 {
   padding: 10px;
   text-align: center;
   transition: background-color 0.5s ease;
+  opacity: 0.9;
 }
 
 .room .attrs {
