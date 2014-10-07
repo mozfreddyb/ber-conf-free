@@ -52,7 +52,7 @@ var rooms = [ { name : "Kaffeeklatsch", id : "201", neighborhood : "east", vidyo
 // util function to convert a Mozilla room id into a BER
 // @mozilla email address.  Means less repeated info and perhaps less spam
 function atMozYVR(id) {
-  return "yvr-" + id + "@mozilla.com";
+  return "ber" + id + "@mozilla.com";
 }
 
 function getFreeBusy() {
