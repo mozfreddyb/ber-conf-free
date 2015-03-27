@@ -368,23 +368,13 @@ var Rooms = React.createClass({displayName: "Rooms",
     return (
       React.createElement("div", {className: "rooms"}, 
         React.createElement("div", {className: "room-column"}, 
-          React.createElement(Room, {room: findRoom("2a")}), 
+          React.createElement(Room, {room: findRoom("2a")})
+        ), 
+        React.createElement("div", {className: "room-column"}, 
           React.createElement(Room, {room: findRoom("2b")})
         ), 
         React.createElement("div", {className: "room-column"}, 
-          React.createElement(Room, {room: findRoom("2c")}), 
-          React.createElement(Room, {room: findRoom("2e")})
-        ), 
-        React.createElement("div", {className: "room-column"}, 
           React.createElement(Room, {room: findRoom("commons")})
-        ), 
-        React.createElement("div", {className: "room-column"}, 
-          React.createElement(Room, {room: findRoom("2d")}), 
-          React.createElement(Room, {room: findRoom("2f")})
-        ), 
-        React.createElement("div", {className: "room-column"}, 
-          React.createElement(Room, {room: findRoom("2g")}), 
-          React.createElement(Room, {room: findRoom("2h")})
         )
       )
     );
@@ -431,6 +421,7 @@ process.browser = true;
 process.env = {};
 process.argv = [];
 process.version = ''; // empty string to avoid regexp issues
+process.versions = {};
 
 function noop() {}
 
