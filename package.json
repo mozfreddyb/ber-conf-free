@@ -1,8 +1,8 @@
 {
-  "name": "yvr-conf-free",
+  "name": "ber-conf-free",
   "version": "0.1.0",
-  "author": "Bryan Clark <clarkbw@gmail.com>",
-  "description": "A Node server that gathers the free/busy calendar information for conference rooms in Mozilla YVR",
+  "author": "Frederik Braun <fbraun@mozilla.com>",
+  "description": "A Node server that gathers the free/busy calendar information for conference rooms in Mozilla Berlin",
   "private": true,
   "scripts": {
     "start": "node server.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mozillayvr/yvr-conf-free.git"
+    "url": "https://github.com/mozfreddyb/ber-conf-free.git"
   },
   "keywords": [
     "yvr",
