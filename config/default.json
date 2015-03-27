@@ -6,13 +6,13 @@
     "rooms" : [
       { "name" : "Kaffeeklatsch", "id" : "2a",
         "email" : "mozilla.com_626572323031@resource.calendar.google.com",
-        "vidyo" : true, "size" : 7 },
+        "vidyo" : true, "size" : 2 },
       { "name" : "Gretchenfrage", "id" : "2b",
         "email" : "mozilla.com_626572323035@resource.calendar.google.com",
-        "vidyo" : true, "size" : 7 },
-      { "name" : "Zeitgeist", "id" : "commons",
+        "vidyo" : true, "size" : 2 },
+      { "name" : "Zeitgeist", "id" : "2c",
         "email" : "mozilla.com_626572323130@resource.calendar.google.com",
-        "vidyo" : true, "size" : 28 }
+        "vidyo" : true, "size" : 3 }
     ]
   },
 	"moment" : {
