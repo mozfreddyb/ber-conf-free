@@ -1,7 +1,7 @@
-name: yvr-conf
+name: ber-conf
 
 url:
-  - yvr-conf.paas.allizom.org
+  - ber-conf.paas.allizom.org
 
 instances: 1
 
