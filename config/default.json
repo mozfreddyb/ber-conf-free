@@ -10,7 +10,7 @@
       { "name" : "Gretchenfrage", "id" : "2b",
         "email" : "mozilla.com_626572323035@resource.calendar.google.com",
         "vidyo" : true, "size" : 2 },
-      { "name" : "Zeitgeist", "id" : "2c",
+      { "name" : "Zeitgeist", "id" : "commons",
         "email" : "mozilla.com_626572323130@resource.calendar.google.com",
         "vidyo" : true, "size" : 3 }
     ]

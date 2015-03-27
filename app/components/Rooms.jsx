@@ -34,22 +34,12 @@ var Rooms = React.createClass({
       <div className="rooms">
         <div className="room-column">
           <Room room={findRoom("2a")} />
+        </div>
+        <div className="room-column">
           <Room room={findRoom("2b")} />
         </div>
         <div className="room-column">
-          <Room room={findRoom("2c")} />
-          <Room room={findRoom("2e")} />
-        </div>
-        <div className="room-column">
           <Room room={findRoom("commons")} />
-        </div>
-        <div className="room-column">
-          <Room room={findRoom("2d")} />
-          <Room room={findRoom("2f")} />
-        </div>
-        <div className="room-column">
-          <Room room={findRoom("2g")} />
-          <Room room={findRoom("2h")} />
         </div>
       </div>
     );
