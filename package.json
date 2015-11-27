@@ -23,7 +23,7 @@
     "config": "~1.12.0",
     "ejs": "~2.3.1",
     "express": "~4.12.0",
-    "git+https://github.com/mozfreddyb/conf-free-api.git": "~1.0.x",
+    "conf-free-api": "git+https://github.com/mozfreddyb/conf-free-api.git",
     "lodash": "~3.6.0",
     "moment": "~2.10.0",
     "react": "~0.13.0"
