@@ -3,7 +3,7 @@ var ReactAddons = require('react/addons').addons;
 var _ = require('lodash');
 var moment = require('moment');
 // TODO: use the config version of this
-moment.lang('en', {
+moment.locale('en', {
     relativeTime : {
         future: "at %s",
         past:   "%s ago",
