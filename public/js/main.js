@@ -253,7 +253,7 @@ var Room = React.createClass({displayName: "Room",
     if (!room) {
       return React.createElement("div", null);
     }
-
+    room.extras = room.extras || [];
     console.log(room.name, this.state);
     var text = "", when = "";
     if (this.state.busy) {
@@ -305,6 +305,11 @@ var Room = React.createClass({displayName: "Room",
             React.createElement("div", {className: "vidyo"}, 
                 React.createElement("span", {className: (this.props.room.vidyo) ? 'pull-left glyphicon glyphicon-facetime-video' : '', "aria-hidden": "true"}), 
                 React.createElement("span", {className: "sr-only"}, (this.props.room.vidyo) ? 'Vidyo Support' : '')
+            ), 
+            React.createElement("div", {className: "extras"}, 
+                React.createElement("span", {className: (room.extras.indexOf('foosball') !== -1) ? 'glyphicon glyphicon-bed' : '', 
+                      title: (room.extras.indexOf('foosball') !== -1) ? 'This room has a foosball table' : '', 
+                       "aria-hidden": "true"})
             )
           )
         )

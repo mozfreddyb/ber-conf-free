@@ -71,7 +71,7 @@ var Room = React.createClass({
     if (!room) {
       return <div/>;
     }
-
+    room.extras = room.extras || [];
     console.log(room.name, this.state);
     var text = "", when = "";
     if (this.state.busy) {
@@ -123,6 +123,11 @@ var Room = React.createClass({
             <div className="vidyo">
                 <span className={(this.props.room.vidyo) ? 'pull-left glyphicon glyphicon-facetime-video' : ''} aria-hidden="true"></span>
                 <span className="sr-only">{(this.props.room.vidyo) ? 'Vidyo Support' : ''}</span>
+            </div>
+            <div className="extras">
+                <span className={(room.extras.indexOf('foosball') !== -1) ? 'glyphicon glyphicon-bed' : ''}
+                      title={(room.extras.indexOf('foosball') !== -1) ? 'This room has a foosball table' : ''}
+                       aria-hidden="true"></span>
             </div>
           </div>
         </div>
