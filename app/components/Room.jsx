@@ -125,9 +125,9 @@ var Room = React.createClass({
                 <span className="sr-only">{(this.props.room.vidyo) ? 'Vidyo Support' : ''}</span>
             </div>
             <div className="extras">
-                <span className={(room.extras.indexOf('foosball') !== -1) ? 'glyphicon glyphicon-bed' : ''}
-                      title={(room.extras.indexOf('foosball') !== -1) ? 'This room has a foosball table' : ''}
-                       aria-hidden="true"></span>
+                {(room.extras.indexOf('foosball') !== -1) ?
+                    <i className="fa fa-futbol-o extras-dark" title="This room has a foosball table" aria-hidden="true"></i> : ''
+                }
             </div>
           </div>
         </div>

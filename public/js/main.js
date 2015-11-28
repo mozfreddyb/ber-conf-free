@@ -307,9 +307,8 @@ var Room = React.createClass({displayName: "Room",
                 React.createElement("span", {className: "sr-only"}, (this.props.room.vidyo) ? 'Vidyo Support' : '')
             ), 
             React.createElement("div", {className: "extras"}, 
-                React.createElement("span", {className: (room.extras.indexOf('foosball') !== -1) ? 'glyphicon glyphicon-bed' : '', 
-                      title: (room.extras.indexOf('foosball') !== -1) ? 'This room has a foosball table' : '', 
-                       "aria-hidden": "true"})
+                (room.extras.indexOf('foosball') !== -1) ?
+                    React.createElement("i", {className: "fa fa-futbol-o extras-dark", title: "This room has a foosball table", "aria-hidden": "true"}) : ''
             )
           )
         )
