@@ -12,6 +12,13 @@ var path = require('path');
 
 var app = require('gcal-conf-free-api').app;
 
+app.get('/*',function(req,res,next){
+    res.header('X-XSS-Protection', '1; mode=block' );
+    res.header('X-Content-Type-Options', 'nosniff');
+    res.header('Strict-Transport-Security', 'max-age=31536000; includeSubDomains;');
+    next();
+});
+
 app.use('/', require('express').static(path.join(__dirname, 'public')));
 
 var server = app.listen(Number(process.env.PORT || config.get('ics.port')), function() {
