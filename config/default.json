@@ -1,7 +1,7 @@
 {
   "ics" : {
     "port": 5000,
-    "url" : "https://www.google.com/calendar/ical/%s/public/basic.ics?fmt=ifb&date=%s",
+    "url" : "https://calendar.google.com/calendar/ical/%s/public/basic.ics?fmt=ifb&date=%s",
     "calender-interval" : 5,
     "rooms" : [
       { "name" : "Kaffeeklatsch", "id" : "2a",
